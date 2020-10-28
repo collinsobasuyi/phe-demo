@@ -26,6 +26,9 @@ describe('My First Test', () => {
         cy.contains('Virus tests processed')
         cy.contains('Testing and capacity, by test type')
         cy.contains('Testing and capacity, by test type')
+
+        cy.contains(' and capacity, by test type')
+       
     })
 
 
